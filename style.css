@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 1000px;
+    padding: 60px 30px;
+    font-family: 'Karla', sans-serif;
+    background: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+p{
+    font-weight: 400;
+}
+
+.container{
+    height: 100%;
+}
+
+.container div{
+    padding: 10px;
+}
+
+.community{
+    height: 35%;
+    background: #fff;
+}
+
+.community h2{
+    color: hsl(179, 62%, 43%);
+}
+
+.community h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.community p{
+    color: hsl(218, 22%, 67%);
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 30%;
+    background: hsl(179, 50%, 43%);
+    color: #fff;
+}
+
+button{
+    background: hsl(71, 73%, 54%);
+    align-self: center;
+    color: white;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px hsl(233, 4%, 40%);
+}
+
+.us{
+    height: 35%;
+    background: hsl(179, 62%, 43%);
+    color: #fff;
+}
