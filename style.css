@@ -23,10 +23,14 @@ p{
 }
 
 .container div{
-    padding: 10px;
+    padding:10px 30px;
 }
 
 .community{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
     height: 35%;
     background: #fff;
 }
@@ -41,6 +45,7 @@ p{
 
 .community p{
     color: hsl(218, 22%, 67%);
+    line-height: 1.6;
 }
 
 .subscription{
@@ -53,11 +58,26 @@ p{
     color: #fff;
 }
 
+.subscription p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+p.price{
+    color: rgba(255, 255, 255, .5);
+}
+
+span{
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #fff;
+}
+
 button{
     background: hsl(71, 73%, 54%);
     align-self: center;
     color: white;
-    width: 80%;
+    width: 100%;
     height: 40px;
     border: none;
     border-radius: 5px;
@@ -67,7 +87,18 @@ button{
 }
 
 .us{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-around;
     height: 35%;
     background: hsl(179, 62%, 43%);
     color: #fff;
+}
+
+.us p{
+    width: 70%;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.2;
 }
